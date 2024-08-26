@@ -1,0 +1,57 @@
+<html>
+<head>
+<style>
+body{
+background:green;
+}
+#box{
+min-height:200px;
+width:450px;
+background:white;
+margin:100px auto;
+border-radius:8px;
+padding:25px 40px;
+box-sizing:border-box;
+transition:all 5s;}
+
+.t{
+height:45px;
+width:100%;
+margin-bottom:10px;
+padding-left:15px;
+box-sizing:border-box;
+color:green;
+}
+.bt
+{
+background:green;
+width:100%;
+height:45px;
+color:white;
+border:none;
+}
+
+::placeholder{
+color:greay;}
+
+#box:hover{
+background:black;
+color:white;
+transition:all 2s;}
+</style>
+</head>
+<body>
+<div id="box">
+<div style="text-align:center;font-size:28px;">"Login <b style="background:green">Form</b></div>
+<form>
+username<br/>
+<input type="email" class="t" placeholder="username..">
+<br/>
+Password<br/>
+<input type="password" class="t" placeholder="Password">
+<br/>
+<input type="submit" class="bt" value="login">
+</form>
+</div>
+</body>
+</html>
